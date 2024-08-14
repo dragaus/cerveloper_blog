@@ -1,0 +1,6 @@
+{
+  "name": "Jekill Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+}
