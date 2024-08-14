@@ -2,5 +2,12 @@
   "name": "Jekill Dev Container",
   "build": {
     "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "sissel.shopify-liquid"
+      ]
+    }
   }
 }
