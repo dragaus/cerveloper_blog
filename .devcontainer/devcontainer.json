@@ -1,13 +1,16 @@
 {
-  "name": "Jekill Dev Container",
+  "name": "Jekyll Dev Container",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "./Dockerfile",
+    "context": "../"
   },
   "customizations": {
     "vscode": {
       "extensions": [
         "sissel.shopify-liquid"
-      ]
+      ],
     }
-  }
+  },
+  "forwardPorts": [4000],
+  "onCreateCommand": "bundle install"
 }
