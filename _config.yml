@@ -4,3 +4,4 @@ exclude:
   - Gemfile.lock
   - Dockerfile
   - README.md
+  - LICENSE
