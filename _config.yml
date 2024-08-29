@@ -1,0 +1,6 @@
+baseurl: "/cerveloper_blog"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - README.md
