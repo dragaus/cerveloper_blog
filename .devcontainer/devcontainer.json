@@ -9,6 +9,11 @@
       "extensions": [
         "sissel.shopify-liquid"
       ],
+      "settings": {
+        "files.associations": {
+          "*.html": "liquid"
+        }
+      }
     }
   },
   "forwardPorts": [4000],
