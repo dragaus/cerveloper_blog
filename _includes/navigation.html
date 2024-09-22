@@ -1,5 +1,10 @@
-<nav>
+<nav class="navigation-div">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link | relative_url }}" {% if page.url == item.link | relative_url %}class="current"{% endif %}>{{ item.name }}</a>
+    <a
+      href="{{ item.link | relative_url }}"
+      {% if page.url == item.link | relative_url %}
+      class="selected-link"
+      {% endif %}
+      class="link">{{ item.name }}</a>
   {% endfor %}
 </nav>

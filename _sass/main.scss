@@ -3,6 +3,9 @@
 @import "base/base";
 @import "base/typography";
 
+@import "includes/header";
+@import "includes/navigation";
+
 .current {
   color: green;
 }
