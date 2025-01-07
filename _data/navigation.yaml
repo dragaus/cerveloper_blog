@@ -1,6 +1,6 @@
 - name: Incio
   link: / 
-- name: Acerca de mi
+- name: Acerca del Blog
   link : /about.html
 - name: Blog
   link : /blog.html

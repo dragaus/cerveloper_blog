@@ -1,0 +1,17 @@
+---
+layout: default
+title: About
+---
+<h1>
+  Acerca de la página
+</h1>
+
+<p>
+  Esta es mi pagina personal, donde escribo sobre tecnología, programación y cualquier cosa que me interese sobre el desarrollo de software.
+</p>
+
+{% for author in site.data.authors %}
+  <p>
+    {{ author.name }}
+  </p>
+{% endfor %}
